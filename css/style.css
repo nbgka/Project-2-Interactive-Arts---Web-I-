@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  /* animation: changeBG 10s 3s infinite; */
+  background: #F5EEE6;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header h1{
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Azeret Mono';
+    margin-left: 5%;
+    /* animation: changeFS 10s infinite; */
+}
+
+.flex-img{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background: #F5EEE6;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* animation-name: changeBG;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+}
+
+.img-holder{
+    width: 55vw;
+    height: 55vw;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: rgb(223, 204, 236);
+    border-radius: 5%;
+}
+
+.next-button{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.next-button p{
+    font-size: 1rem;
+}
+
+.next-button button{
+    font-size: 1rem;
+    margin-top: 5%;
+    padding: 0.65rem 1rem;
+}
+
+/* @keyframes changeBG {
+  0% {background-color: hotpink;}
+  25% {background-color: indigo;}
+  50% {background-color: darkorange;}
+  75% {background-color: darkred;}
+  100% {background-color: hotpink;}
+}
+
+@keyframes changeFS {
+  0% {font-size: 3rem;}
+  25% {font-size: 2.5rem;}
+  50% {font-size: 2rem;}
+  75% {font-size: 1.5rem;}
+  100% {font-size: 1rem;}
+} */
+
+/*********** DESKTOP VERSION ***********/
+@media screen and (width >=1366px){
+
+    /* how to slightly increase overall text size in media quiry */
+    html{
+        font-size: 151%; 
+    }
+
+  .flex-img{
+    background: #F5EEE6;
+  }
+
+  .header{
+    margin-top: 5%;
+  }
+ 
+  .flex-img{
+    margin-top: 5%;
+  }
+
+  .next-button {
+    margin-bottom: 5%;
+  }
+
+  .img-holder{
+    /* animation: changeimgBG 10s infinite; */
+  }
+
+  /* @keyframes changeimgBG {
+    0% {background-color: greenyellow;}
+    25% {background-color: blue;}
+    50% {background-color: blueviolet}
+    75% {background-color: palevioletred;}
+    100% {background-color: greenyellow;}
+  } */
+
+}
