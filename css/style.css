@@ -81,7 +81,7 @@ body{
 
     /* how to slightly increase overall text size in media quiry */
     html{
-        font-size: 151%; 
+        font-size: 150%; 
     }
 
   .flex-img{
