@@ -11,6 +11,7 @@ body{
 .header{
     text-align: center;
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .header h1{
@@ -21,12 +22,45 @@ body{
     /* animation: changeFS 10s infinite; */
 }
 
+/* MOBILE MENU */
+.topnav{
+  display: flex;
+  background-color: #CBDCD1;
+  font-family: 'Azeret Mono';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 4%;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.item{
+  width: 100px;
+  height: 30px;
+  background: #CBDCD1;
+  margin: 1vw;
+}
+
+.topnav a{
+  text-decoration: none;
+  color: black;
+}
+
+/* .topnav a:hover{
+  color: #6a5e84;
+} */
+/* MOBILE Menu */
+
 .flex-img{
     display: flex;
     width: 100vw;
-    height: 80vh;
+    height: 147vh;
     background: #F5EEE6;
-    margin-top: 10%;
+    margin-top: 1%;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -35,13 +69,107 @@ body{
     animation-iteration-count: infinite; */
 }
 
-.img-holder{
-    width: 55vw;
-    height: 55vw;
+.img-holder1{
+    width: 85vw;
+    height: 100vw;
     max-width: 400px;
     max-height: 400px;
-    background-color: rgb(223, 204, 236);
-    border-radius: 5%;
+    background-color: #24272C;
+    border-radius: 150px;
+    border: 1px solid #000000;
+    margin: 5%;
+}
+
+.img-holder2{
+  width: 85vw;
+  height: 100vw;
+  max-width: 400px;
+  max-height: 400px;
+  background-color: rgb(223, 204, 236);
+  border-radius: 150px;
+  border: 1px solid #000000;
+  margin: 5%;
+}
+
+.img-holder3{
+  width: 85vw;
+  height: 100vw;
+  max-width: 400px;
+  max-height: 400px;
+  background-color: #5E6855;
+  border-radius: 150px;
+  border: 1px solid #000000;
+  margin: 5%;
+}
+
+.patterns-home p{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  margin-top: 40%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  font-weight: 700;
+}
+
+.resources-home p{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  margin-top: 40%;
+  margin-right: 2.6%;
+  margin-left: 2.6%;
+  font-weight: 700;
+}
+
+.explore-button{
+  text-align: center;
+}
+
+.explore-button button{
+  font-size: 1rem;
+  padding: 0.65rem 1rem;
+  color: #000000;
+  font-family: 'Montserrat';
+  padding-top: 4%;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color: #CEB7FF;
+}
+
+.resources-button{
+  text-align: center;
+}
+
+.resources-button button{
+  font-size: 1rem;
+  padding: 0.65rem 1rem;
+  color: #000000;
+  font-family: 'Montserrat';
+  padding-top: 4%;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color: #CBDCD1;
+}
+
+.plus-button{
+  text-align: center;
+}
+
+.plus-button button{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  padding-top: 3%;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color: #5E6855;
+  margin-top: 40%;
+  margin-left: 50%;
 }
 
 .next-button{
@@ -59,6 +187,7 @@ body{
     margin-top: 5%;
     padding: 0.65rem 1rem;
 }
+
 
 /* @keyframes changeBG {
   0% {background-color: hotpink;}
@@ -90,8 +219,13 @@ body{
 
   .header{
     margin-top: 5%;
+    margin-bottom: 2%;
   }
- 
+
+  .header h1{
+    font-size: 2rem;
+  }
+
   .flex-img{
     margin-top: 5%;
   }
@@ -103,6 +237,165 @@ body{
   .img-holder{
     /* animation: changeimgBG 10s infinite; */
   }
+
+  /* LAPTOP MENUUUU */
+  .topnav{
+   padding-top: 1%;
+   padding-bottom: 0.5%;
+   margin-left: 3%;
+   margin-right: 3%;
+   border-radius: 50px;
+   border: 1px solid #000000;
+  }
+
+  .item{
+    width: 180px;
+    height: 30px;
+    background: #CBDCD1;
+    margin: 1vw;
+  }
+
+  .topnav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .topnav a:hover{
+    color: white;
+    background-color: #5E6855; padding: 10%; border-radius: 50px;
+    text-decoration: none;
+    animation: changemenuhoverC 2s;
+  }
+
+  @keyframes changemenuhoverC{
+    0% {background-color: #CBDCD1;}
+    100% {background-color: #5E6855;}
+  }
+  /* LAPTOP MENUUUU */
+
+  .flex-img{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background: #F5EEE6;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5%;
+    /* animation-name: changeBG;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+  } 
+
+  .img-holder1{
+    width: 340vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 500px;
+    background-color: #24272C;
+    border-radius: 200px;
+    border: 1px solid #000000;
+    margin: 0.1%;
+  }
+
+  .img-holder2{
+    width: 340vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 500px;
+    background-image: url('media/images/sewing1.jpg');
+    border-radius: 200px;
+    border: 1px solid #000000;
+    margin: 0.1%;
+  }
+
+  .img-holder3{
+    width: 340vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 500px;
+    background-color: #5E6855;
+    border-radius: 200px;
+    border: 1px solid #000000;
+    margin: 0.1%;
+  }
+
+  .patterns-home p{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    margin-top: 40%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    font-weight: 700;
+  }
+
+  .resources-home p{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    margin-top: 40%;
+    margin-right: 2.6%;
+    margin-left: 2.6%;
+    font-weight: 700;
+  }
+/*******HOVER ANIMATE BUTTON LAPTOP************/
+  .explore-button button:hover{
+    text-decoration: none;
+    padding: 0.75rem 1.10rem;
+    margin-top: 3%;
+    padding: 0.65rem 1rem;
+    /* animation: changeexplorehoverC 1s; */
+    animation: movemarginT 1.5s;
+    background-color: #F5EEE6;
+  }
+
+  .plus-button button:hover{
+    text-decoration: none;
+    margin-top: 43%;
+    /* animation: changeplushoverC 1s; */
+    animation: movemarginplusT 1.5s;
+    background-color: black;
+  }
+
+  .resources-button button:hover{
+    text-decoration: none;
+    padding: 0.75rem 1.10rem;
+    margin-top: 3%;
+    padding: 0.65rem 1rem;
+    /* animation: changeresouceshoverC 1s; */
+    animation: movemarginT 1.5s;
+    background-color: #F5EEE6;
+  }
+  
+  @keyframes movemarginT{
+    0% {margin-top: 0%;}
+    100% {margin-top: 3%;}
+    }
+
+  @keyframes movemarginplusT{
+    0% {margin-top: 40%;}
+    100% {margin-top: 43%;}
+  }
+/*******HOVER ANIMATE BUTTON LAPTOP************/
+
+/*******HOVER ANIMATE BUTTON LAPTOP************/
+  /* @keyframes changeexplorehoverC{
+    0% {background-color: rgb(223, 204, 236);}
+    100% {background-color: #F5EEE6}
+  }
+
+  @keyframes changeplushoverC{
+    0% {background-color: #5E6855;}
+    100% {background-color: black;}
+  }
+
+  @keyframes changeresouceshoverC{
+    0% {background-color: #CBDCD1;}
+    100% {background-color: #F5EEE6;}
+  } */
+/*******HOVER ANIMATE BUTTON LAPTOP************/
 
   /* @keyframes changeimgBG {
     0% {background-color: greenyellow;}
