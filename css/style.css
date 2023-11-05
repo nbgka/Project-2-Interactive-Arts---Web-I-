@@ -302,7 +302,7 @@ body{
     height: 50vw;
     max-width: 400px;
     max-height: 500px;
-    background-image: url('media/images/sewing1.jpg');
+    background-color: rgb(223, 204, 236);
     border-radius: 200px;
     border: 1px solid #000000;
     margin: 0.1%;
@@ -379,6 +379,7 @@ body{
     100% {margin-top: 43%;}
   }
 /*******HOVER ANIMATE BUTTON LAPTOP************/
+
 
 /*******HOVER ANIMATE BUTTON LAPTOP************/
   /* @keyframes changeexplorehoverC{
