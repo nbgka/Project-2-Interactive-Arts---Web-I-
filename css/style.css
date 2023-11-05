@@ -36,6 +36,8 @@ body{
   padding-top: 4%;
   border: 1px solid #000000;
   border-radius: 20px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .item{
@@ -85,7 +87,7 @@ body{
   height: 100vw;
   max-width: 400px;
   max-height: 400px;
-  background-color: rgb(223, 204, 236);
+  background-color: #CEB7FF;
   border-radius: 150px;
   border: 1px solid #000000;
   margin: 5%;
@@ -172,22 +174,51 @@ body{
   margin-left: 50%;
 }
 
-.next-button{
-    margin-top: 5%;
-    margin-bottom: 15%;
-    text-align: center;
+.designerOTM-button{
+  margin-top: 7%;
+  margin-bottom: 15%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
-.next-button p{
-    font-size: 1rem;
+.designerOTM-button p{
+  text-align: left;
 }
 
-.next-button button{
-    font-size: 1rem;
-    margin-top: 5%;
-    padding: 0.65rem 1rem;
+.designerOTM-button button{
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  color: #000000;
+  font-family: 'Azeret Mono';
+  padding-top: 4%;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color: #CEB7FF;
+  text-align: center;
 }
 
+.jessbio p{
+  font-size: 1.2rem;
+  font-family: 'Azeret Mono';
+  padding: 6%;
+  width: 80vw;
+  height: 25vh;
+}
+
+.jessimg img{
+  border: 1px solid #000000;
+  border-radius: 40px;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 80vw;
+  height: 80vw;
+}
+
+.footer{
+  margin-top: 5%;
+  background-color: #5E6855;
+  height: 40vw;
+}
 
 /* @keyframes changeBG {
   0% {background-color: hotpink;}
@@ -234,10 +265,6 @@ body{
     margin-bottom: 5%;
   }
 
-  .img-holder{
-    /* animation: changeimgBG 10s infinite; */
-  }
-
   /* LAPTOP MENUUUU */
   .topnav{
    padding-top: 1%;
@@ -262,7 +289,7 @@ body{
 
   .topnav a:hover{
     color: white;
-    background-color: #5E6855; padding: 10%; border-radius: 50px;
+    background-color: #5E6855; padding: 10% 20%; border-radius: 50px;
     text-decoration: none;
     animation: changemenuhoverC 2s;
   }
@@ -302,7 +329,7 @@ body{
     height: 50vw;
     max-width: 400px;
     max-height: 500px;
-    background-color: rgb(223, 204, 236);
+    background-color: #CEB7FF;
     border-radius: 200px;
     border: 1px solid #000000;
     margin: 0.1%;
@@ -340,6 +367,57 @@ body{
     margin-left: 2.6%;
     font-weight: 700;
   }
+
+  .flex-img2{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start
+    width 100vw;
+    height: 70vh;
+  }
+
+  .designerOTM-button{
+    margin-top: 1%;
+    margin-bottom: 15%;
+    text-align: center;
+  }
+  
+  .designerOTM-button button{
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    color: #000000;
+    font-family: 'Azeret Mono';
+    padding-top: 2%;
+    margin-top: 1%;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    background-color: #CEB7FF;
+    margin-bottom: 0%;
+
+  }
+
+  .jessbio p{
+    font-size: 1.4rem;
+    font-family: 'Azeret Mono';
+    padding: 6%;
+    width: 50vw;
+    height: 60vh;
+  }
+
+  .jessimg{
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .jessimg img{
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin-left: 5%;
+    width: 35vw;
+    height: 35vw;
+  }
+  
 /*******HOVER ANIMATE BUTTON LAPTOP************/
   .explore-button button:hover{
     text-decoration: none;
@@ -378,6 +456,12 @@ body{
     0% {margin-top: 40%;}
     100% {margin-top: 43%;}
   }
+
+  .footer{
+      margin-top: 1%;
+      background-color: #5E6855;
+      height: 10vw;
+  }
 /*******HOVER ANIMATE BUTTON LAPTOP************/
 
 
@@ -405,5 +489,3 @@ body{
     75% {background-color: palevioletred;}
     100% {background-color: greenyellow;}
   } */
-
-}
