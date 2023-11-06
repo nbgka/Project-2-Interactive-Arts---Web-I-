@@ -538,7 +538,7 @@ body{
     justify-content:flex-start
     justify-content: space-evenly;
     align-items: center;
-    width 1000vw;
+    width: 100vw;
     height: 240vh;
   }
 
