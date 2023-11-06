@@ -84,13 +84,35 @@ body{
 
 .img-holder2{
   width: 85vw;
+  height: 112vw;
+  max-width: 400px;
+  max-height: 500px;
+}
+
+.img-holder2 p{
+  font-size: 0.9rem;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  padding-top: 3%;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color: #24272C;
+}
+
+.img-holder2 img{
+  width: 80vw;
   height: 100vw;
   max-width: 400px;
-  max-height: 400px;
-  background-color: #CEB7FF;
-  border-radius: 150px;
+  max-height: 500px;
+  border-radius: 200px;
   border: 1px solid #000000;
-  margin: 5%;
+  margin-left: 3%;
 }
 
 .img-holder3{
@@ -156,7 +178,7 @@ body{
   background-color: #CBDCD1;
 }
 
-.plus-button{
+/* .plus-button{
   text-align: center;
 }
 
@@ -172,7 +194,7 @@ body{
   background-color: #5E6855;
   margin-top: 40%;
   margin-left: 50%;
-}
+} */
 
 .designerOTM-button{
   margin-top: 7%;
@@ -214,11 +236,64 @@ body{
   height: 80vw;
 }
 
-.footer{
-  margin-top: 5%;
+
+/******MOBILE FOOTER************/
+.footer-flex{
+  padding-top: 2%;
+  margin-top: 1%;
   background-color: #5E6855;
-  height: 40vw;
+  height: 15vw;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.quick-links-flex{
+  display: flex;
+  font-family: 'Azeret Mono';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-left: 3.5%;
+}
+
+.quick-links-flex a{
+  text-decoration: none;
+  color: #CBDCD1;
+}
+
+.item2{
+  width: 180px;
+  height: 20px;
+  margin: 1vw;
+}
+
+.title p{
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Azeret Mono';
+  margin-left: 5%;
+  color: white;
+  width: 50vw;
+  padding-left: 5%;
+}
+
+.instagram{
+  width: 50vw;
+}
+
+.instagram img{
+  width: 3vw;
+  height: 3vw;
+  margin-left: 84%;
+}
+
+
+/******MOBILE FOOTER************/
 
 /* @keyframes changeBG {
   0% {background-color: hotpink;}
@@ -261,10 +336,6 @@ body{
     margin-top: 5%;
   }
 
-  .next-button {
-    margin-bottom: 5%;
-  }
-
   /* LAPTOP MENUUUU */
   .topnav{
    padding-top: 1%;
@@ -291,7 +362,7 @@ body{
     color: white;
     background-color: #5E6855; padding: 10% 20%; border-radius: 50px;
     text-decoration: none;
-    animation: changemenuhoverC 2s;
+    animation: changemenuhoverC 0.5s;
   }
 
   @keyframes changemenuhoverC{
@@ -329,10 +400,19 @@ body{
     height: 50vw;
     max-width: 400px;
     max-height: 500px;
-    background-color: #CEB7FF;
+  }
+
+  .img-holder2 p{
+    display: none;
+  }
+
+  .img-holder2 img{
+    width: 340vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 500px;
     border-radius: 200px;
     border: 1px solid #000000;
-    margin: 0.1%;
   }
 
   .img-holder3{
@@ -425,17 +505,17 @@ body{
     margin-top: 3%;
     padding: 0.65rem 1rem;
     /* animation: changeexplorehoverC 1s; */
-    animation: movemarginT 1.5s;
+    animation: movemarginT 0.5s;
     background-color: #F5EEE6;
   }
-
+/* 
   .plus-button button:hover{
     text-decoration: none;
     margin-top: 43%;
     /* animation: changeplushoverC 1s; */
-    animation: movemarginplusT 1.5s;
-    background-color: black;
-  }
+    /* animation: movemarginplusT 1.5s;
+    background-color: black; */
+  /* } */
 
   .resources-button button:hover{
     text-decoration: none;
@@ -443,25 +523,104 @@ body{
     margin-top: 3%;
     padding: 0.65rem 1rem;
     /* animation: changeresouceshoverC 1s; */
-    animation: movemarginT 1.5s;
+    animation: movemarginT 0.5s;
     background-color: #F5EEE6;
   }
-  
+
+  .img-holder2 img:hover{
+    animation: changeimgBS 0.5s;
+    border: 5px solid;
+  }
+
+  .jessimg img:hover{
+    animation: changeimgBS 0.5s;
+    border: 5px solid;
+  }
+
   @keyframes movemarginT{
     0% {margin-top: 0%;}
     100% {margin-top: 3%;}
-    }
+  }
 
-  @keyframes movemarginplusT{
+  @keyframes changeimgBS{
+    0% {border: 1px solid;}
+    100% {border: 5px solid;}
+  }
+
+  /* @keyframes movemarginplusT{
     0% {margin-top: 40%;}
     100% {margin-top: 43%;}
+  } */
+
+/*******FOOTER DESKTOP*********************/
+
+  .footer-flex{
+    padding-top: 2%;
+    margin-top: 1%;
+    background-color: #5E6855;
+    height: 15vw;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .footer{
-      margin-top: 1%;
-      background-color: #5E6855;
-      height: 10vw;
+  .quick-links-flex{
+    display: flex;
+    font-family: 'Azeret Mono';
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-left: 3.5%;
+    width: 95vw;
   }
+
+  .quick-links-flex a{
+    text-decoration: none;
+    color: #CBDCD1;
+  }
+
+  .quick-links-flex a:hover{
+    color: #000000;
+    animation: changefooterC 1s;
+  }
+
+  @keyframes changefooterC{
+    0% {color: #CBDCD1;}
+    100% {color: black;}
+  }
+
+  .item2{
+    width: 180px;
+    height: 20px;
+    margin: 1vw;
+  }
+
+  .title p{
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: 'Azeret Mono';
+    margin-left: 5%;
+    color: white;
+    width: 50vw;
+    padding-left: 5%;
+  }
+
+  .instagram{
+    width: 50vw;
+  }
+
+  .instagram img{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 85%;
+  }
+
+
+
 /*******HOVER ANIMATE BUTTON LAPTOP************/
 
 
