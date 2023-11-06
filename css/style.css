@@ -89,7 +89,7 @@ body{
   max-height: 500px;
 }
 
-.img-holder2 p{
+.img2a{
   font-size: 0.9rem;
   margin-top: 2%;
   margin-left: 4%;
@@ -103,6 +103,11 @@ body{
   border: 1px solid #000000;
   border-radius: 40px;
   background-color: #24272C;
+}
+
+.img2a a{
+  text-decoration: none;
+  color: white;
 }
 
 .img-holder2 img{
@@ -220,11 +225,11 @@ body{
 }
 
 .jessbio p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Azeret Mono';
   padding: 6%;
-  width: 80vw;
-  height: 25vh;
+  width: 85vw;
+  height: 27vh;
 }
 
 .jessimg img{
@@ -234,15 +239,16 @@ body{
   margin-right: 5%;
   width: 80vw;
   height: 80vw;
+  margin-bottom: 5%;
 }
 
 
 /******MOBILE FOOTER************/
 .footer-flex{
-  padding-top: 2%;
+  padding-top: 5%;
   margin-top: 1%;
   background-color: #5E6855;
-  height: 15vw;
+  height: 50vw;
   margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
@@ -259,15 +265,15 @@ body{
   text-align: center;
   font-size: 0.8rem;
   margin-left: 3.5%;
+  padding-bottom: 5%;
 }
 
 .quick-links-flex a{
-  text-decoration: none;
   color: #CBDCD1;
 }
 
 .item2{
-  width: 180px;
+  width: 160px;
   height: 20px;
   margin: 1vw;
 }
@@ -287,9 +293,9 @@ body{
 }
 
 .instagram img{
-  width: 3vw;
-  height: 3vw;
-  margin-left: 84%;
+  width: 8vw;
+  height: 8vw;
+  margin-left: 70%;
 }
 
 
@@ -371,6 +377,10 @@ body{
   }
   /* LAPTOP MENUUUU */
 
+  .img2a{
+    display: none;
+  }
+
   .flex-img{
     display: flex;
     width: 100vw;
@@ -400,10 +410,6 @@ body{
     height: 50vw;
     max-width: 400px;
     max-height: 500px;
-  }
-
-  .img-holder2 p{
-    display: none;
   }
 
   .img-holder2 img{
@@ -478,7 +484,7 @@ body{
   }
 
   .jessbio p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: 'Azeret Mono';
     padding: 6%;
     width: 50vw;
@@ -607,6 +613,7 @@ body{
     color: white;
     width: 50vw;
     padding-left: 5%;
+    margin-bottom: 5%;
   }
 
   .instagram{
