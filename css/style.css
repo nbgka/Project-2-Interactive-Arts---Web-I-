@@ -43,6 +43,8 @@ body{
 .item{
   width: 100px;
   height: 30px;
+  max-width: 400px;
+  max-height: 400px;
   background: #CBDCD1;
   margin: 1vw;
 }
@@ -242,6 +244,73 @@ body{
   margin-bottom: 5%;
 }
 
+/***********************ABOUT MOBILE PAGE*********/
+  .flex-img-about{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start
+    width 300vw;
+    height: 130vh;
+  }
+
+  .patternsimg{
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 91vw;
+    height: 60vw;
+  }
+
+  .patternsimg img{
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin-left: 5%;
+    width: 91vw;
+    height: 60vw;
+  }
+
+  .abouttext{
+    max-width: 400px;
+    max-height: 800px;
+    margin-top: 1%;
+    margin-bottom: 20%;
+  }
+
+  .abouttext h2{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-left: 6%;
+  }
+
+  .abouttext h1{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+
+  .aboutinfo p{
+    font-size: 1rem;
+    font-family: 'Azeret Mono';
+    width: 84vw;
+    height: 75vh;
+    padding: 5%;
+    text-align: left;
+    background-color: #CEB7FF;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin-left: 2.5%;
+    margin-right: 5%;
+  }
+  
+
+/***********************ABOUT MOBILE PAGE*********/
+
 
 /******MOBILE FOOTER************/
 .footer-flex{
@@ -264,8 +333,11 @@ body{
   flex-wrap: wrap;
   text-align: center;
   font-size: 0.8rem;
-  margin-left: 3.5%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding-bottom: 5%;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .quick-links-flex a{
@@ -276,10 +348,12 @@ body{
   width: 160px;
   height: 20px;
   margin: 1vw;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .title p{
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   text-align: left;
   font-family: 'Azeret Mono';
   margin-left: 5%;
@@ -290,6 +364,8 @@ body{
 
 .instagram{
   width: 50vw;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .instagram img{
@@ -454,6 +530,71 @@ body{
     font-weight: 700;
   }
 
+  /***********************ABOUT LAPTOP PAGE*********/
+  .flex-img-about{
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start
+    justify-content: space-evenly;
+    align-items: center;
+    width 1000vw;
+    height: 240vh;
+  }
+
+  .patternsimg{
+    width: 71vw;
+    height: 40vw;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    max-width: 900px;
+    max-height: 400px;
+  }
+
+  .patternsimg img{
+    border: 1px solid #000000;
+    border-bottom-right-radius:  40px;
+    border-bottom-left-radius:  40px;
+    border-top-right-radius:  200px;
+    border-top-left-radius:  200px;
+    margin-left: 5%;
+    width: 71vw;
+    height: 40vw;
+  }
+
+  .abouttext h1{
+    text-align: left;
+    font-size: 2.7rem;
+  }
+
+  .abouttext h2{
+    text-align: left;
+    font-size: 2.5rem;
+  }
+
+  .abouttext{
+    margin-left: 10.5%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    text-align: center;
+    max-width: 900px;
+    max-height: 2000px;
+  }
+
+  .aboutinfo p{
+    font-size: 1.3rem;
+    font-family: 'Azeret Mono';
+    padding: 6%;
+    width: 70vw;
+    height: 95vh;
+    text-align: left;
+  }
+
+  
+
+  /***********************ABOUT LAPTOP PAGE*********/
+
   .flex-img2{
     margin-top: 2%;
     display: flex;
@@ -467,6 +608,8 @@ body{
     margin-top: 1%;
     margin-bottom: 15%;
     text-align: center;
+    max-width: 900px;
+    max-height: 500px;
   }
   
   .designerOTM-button button{
@@ -494,6 +637,8 @@ body{
   .jessimg{
     width: 35vw;
     height: 35vw;
+    max-width: 900px;
+    max-height: 500px;
   }
 
   .jessimg img{
@@ -569,6 +714,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 2%;
   }
 
   .quick-links-flex{
@@ -582,6 +728,8 @@ body{
     font-size: 0.8rem;
     margin-left: 3.5%;
     width: 95vw;
+    max-width: 700px;
+    max-height: 15px;
   }
 
   .quick-links-flex a{
@@ -603,26 +751,30 @@ body{
     width: 180px;
     height: 20px;
     margin: 1vw;
+    max-width: 900px;
+    max-height: 500px;
   }
 
   .title p{
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     text-align: left;
     font-family: 'Azeret Mono';
     margin-left: 5%;
     color: white;
     width: 50vw;
     padding-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
   }
 
   .instagram{
     width: 50vw;
+    max-width: 900px;
+    max-height: 500px;
   }
 
   .instagram img{
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     margin-left: 85%;
   }
 
